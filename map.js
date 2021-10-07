@@ -7,3 +7,10 @@ for (let char of string) {
     chars[char]++;
   }
 }
+
+const a = {
+  item: 2,
+};
+console.log(a["item"]);
+a["item2"] = 25;
+console.log(a);
